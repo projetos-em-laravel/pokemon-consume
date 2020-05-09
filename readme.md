@@ -1,21 +1,74 @@
-# Lumen PHP Framework
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://poser.pugx.org/laravel/lumen-framework/d/total.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/lumen-framework/v/stable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/lumen-framework/v/unstable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://packagist.org/packages/laravel/lumen-framework)
+<h1 align="center">
+    <img alt="Jonathan's" src="./public/assets/Moon@2x.png" />
+    <br>
+    Pokemóns Consumption API - Lumen PHP
+</h1>
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+<h4 align="center">
+  NetShoes Clone App with React Native and Redux.
+</h4>
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/projetos-em-laravel/pokemon_consume.svg">
 
-## Official Documentation
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/projetos-em-laravel/pokemon_consume.svg">
 
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/projetos-em-laravel/pokemon_consume.svg">
+  <a href="https://github.com/projetos-em-laravel/pokemon_consume/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/lukemorales/rocketshoes-react-native.svg">
+  </a>
 
-## Security Vulnerabilities
+  <a href="https://github.com/projetos-em-laravel/pokemon_consume/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/projetos-em-laravel/pokemon_consume.svg">
+  </a>
 
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+<p align="center">
+  <a href="#Moon-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">License</a>
+</p>
 
-## License
+<p align="center">
+  <img alt="Demo on Netlify" src="./public/assets/pokemon-consume.gif">
+</p>
 
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## :Moon: Technologies
+
+This project was developed at the [Jonathan's Moon](#) with the following technologies:
+
+-  [Lumen](https://lumen.laravel.com/)
+-  [Bulma](https://bulma.io/)
+-  [docker](https://www.docker.com/)
+-  [css](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+-  [curl](https://curl.haxx.se/)
+-  [VS Code][vc]
+
+## :information_source: How To Use
+
+To clone and run this application, you'll only need [Docker](https://www.docker.com/) installed on your computer. From your command line:
+
+```bash
+# Clone this repository
+$ git clone https://github.com/projetos-em-laravel/pokemon_consume.git
+
+# Go into the repository
+$ cd pokemon-consume
+
+# Change the access permissions of the run.sh file
+$ chmod +x ./run.sh
+
+# Run the command to mount the php and nginx image on the docker
+$ sudo ./run.sh
+
+# Execute to stop execution
+$ docker-compose down
+```
+
+## :memo: License
+This project is under the MIT license. See the [LICENSE](https://github.com/lukemorales/rocketshoes-react-native/blob/master/LICENSE) for more information.
+
+---
+
+Made with ♥ by Jonathan Silva :wave: [Get in touch!](https://www.linkedin.com/in/jonathan-silva-gomes-53271a168/)
+
+[vc]: https://code.visualstudio.com/

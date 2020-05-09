@@ -7,24 +7,38 @@
     <title>Pokemóns</title>
 
     <link rel="stylesheet" href="{{url('vendor/css/font-awesome.min.css')}}">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="{{url('custom/css/api.css')}}">
     <!-- Bulma Version 0.7.2-->
     <link rel="stylesheet" href="{{url('vendor/css/bulma.min.css')}}" />
-    <link rel="stylesheet" type="text/css" href="canalti.css">
 </head>
 <body>
-    <section class="hero is-info is-small">
+
+
+    <section class="hero is-small is-primary is-bold">
+        <!-- Hero head: will stick at the top -->
+        <div class="hero-head">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <img class="image-logo" src="{{url('assets/Moon.png')}}" alt="Logo">
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Hero content: will be in the middle -->
         <div class="hero-body">
             <div class="container has-text-centered">
-                <p class="title">
+                <h1 class="title">
                     Pokemóns List
-                </p>
-                <p class="subtitle">
+                </h1>
+                <h2 class="subtitle">
                     Consumption API.
-                </p>
+                </h2>
             </div>
         </div>
     </section>
+
     <div class="box cta">
         <p class="has-text-centered">
             <span class="tag is-danger">Jonathan'S</span>
@@ -39,7 +53,7 @@
         $i = 0;
     @endphp
 
-    @foreach($pokemons->pokemon as $Pokemon)
+    @foreach($pokemons->pokemon as $pokemon)
     @php
        $i++;
     @endphp
@@ -51,18 +65,18 @@
         <div class="card">
             <div class="card-image has-text-centered">
             <figure class="image is-128x128">
-                <img src="{{$Pokemon->img}}" alt="{{$Pokemon->name}}" class="" data-target="modal-image2">
+                <img src="{{$pokemon->img}}" alt="{{$pokemon->name}}" class="" data-target="modal-image2">
             </figure>
             </div>
-            <div class="card-content has-text-centered">
+            <div class="card-content has-text-centered hero is-light">
             <div class="content">
-                <h4>{{$Pokemon->name}}</h4>
+                <h4>{{$pokemon->name}}</h4>
                 <p>
                 <ul>
-                @if(isset($Pokemon->next_evolution))
+                @if(isset($pokemon->next_evolution))
                     {{"Próximas evoluções: "}}
-                    @foreach($Pokemon->next_evolution as $ProximaEvolucao)
-                        {{$ProximaEvolucao->name . " "}}
+                    @foreach($pokemon->next_evolution as $proximaEvolucao)
+                        {{$proximaEvolucao->name . " "}}
                     @endforeach
                 @else
                     {{"Não possui próximas evoluções "}}
