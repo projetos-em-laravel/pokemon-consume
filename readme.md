@@ -32,7 +32,7 @@
   <img alt="Demo on Netlify" src="./public/assets/pokemon-consume.gif">
 </p>
 
-## :Moon: Technologies
+## :full_moon: Technologies
 
 This project was developed at the [Jonathan's Moon](#) with the following technologies:
 
