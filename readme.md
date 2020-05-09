@@ -65,9 +65,7 @@ $ docker-compose down
 ```
 
 ## :memo: License
-This project is under the MIT license. See the [LICENSE](https://github.com/lukemorales/rocketshoes-react-native/blob/master/LICENSE) for more information.
-
----
+This project is under the MIT license.
 
 Made with ♥ by Jonathan Silva :wave: [Get in touch!](https://www.linkedin.com/in/jonathan-silva-gomes-53271a168/)
 
