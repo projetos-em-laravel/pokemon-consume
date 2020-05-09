@@ -29,10 +29,10 @@
 </p>
 
 <p align="center">
-  <img src="https://i.pinimg.com/originals/87/e1/e1/87e1e146910cede3db7e25a6a0a61195.gif">
+  <img src="https://i.pinimg.com/originals/39/93/5d/39935d3f679633552e2630b57ee292e5.gif">
 </p>
 
-## :new_moon: Technologies
+## :computer: Technologies
 
 This project was developed at the [Jonathan's Moon](#) with the following technologies:
 
