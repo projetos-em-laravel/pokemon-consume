@@ -29,7 +29,7 @@
 </p>
 
 <p align="center">
-  <img src="https://i.pinimg.com/originals/39/93/5d/39935d3f679633552e2630b57ee292e5.gif">
+  <img src="https://github.com/JonathansMoon/files/blob/master/gifs/pokemonApi.gif">
 </p>
 
 ## :computer: Technologies
