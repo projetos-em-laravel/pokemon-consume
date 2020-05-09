@@ -1,6 +1,6 @@
 
 <h1 align="center">
-    <img alt="Jonathan's" src="./public/assets/Moon@2x.png" />
+    <img alt="Jonathan's" src="https://i.pinimg.com/originals/52/1a/fa/521afaada5d1c270249703e2420fbbb3.png" />
     <br>
     Pokemóns Consumption API - Lumen PHP
 </h1>
@@ -29,10 +29,10 @@
 </p>
 
 <p align="center">
-  <img alt="Demo on Netlify" src="./public/assets/pokemon-consume.gif">
+  <img src="https://i.pinimg.com/originals/87/e1/e1/87e1e146910cede3db7e25a6a0a61195.gif">
 </p>
 
-## :Moon: Technologies
+## :new_moon: Technologies
 
 This project was developed at the [Jonathan's Moon](#) with the following technologies:
 
